@@ -5,6 +5,7 @@ import math
 import tree
 import argparse
 
+
 # Argunment parser
 parser = argparse.ArgumentParser(description='Get satellites predictions of the TLE\'s on tle_file while avoiding overlaping.')
 parser.add_argument('--location', dest='gndlocation', nargs=3, required=True,
